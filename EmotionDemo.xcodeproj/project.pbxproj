@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C5B7AAA1EEA7A7700107BE2 /* UITextView - Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B7AA91EEA7A7700107BE2 /* UITextView - Extension.swift */; };
+		7C5B7AAC1EEA7BFB00107BE2 /* EmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B7AAB1EEA7BFB00107BE2 /* EmoticonAttachment.swift */; };
+		7CC1B5181EE9340E0005B88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1B5171EE9340E0005B88C /* AppDelegate.swift */; };
+		7CC1B51A1EE9340E0005B88C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1B5191EE9340E0005B88C /* ViewController.swift */; };
+		7CC1B51D1EE9340E0005B88C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1B51B1EE9340E0005B88C /* Main.storyboard */; };
+		7CC1B51F1EE9340E0005B88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1B51E1EE9340E0005B88C /* Assets.xcassets */; };
+		7CC1B5221EE9340E0005B88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1B5201EE9340E0005B88C /* LaunchScreen.storyboard */; };
+		7CC1B53E1EEA54850005B88C /* EmotionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1B5371EEA54850005B88C /* EmotionCell.swift */; };
+		7CC1B53F1EEA54850005B88C /* EmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1B5381EEA54850005B88C /* EmotionViewController.swift */; };
+		7CC1B5401EEA54850005B88C /* EmotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1B53A1EEA54850005B88C /* EmotionManager.swift */; };
+		7CC1B5411EEA54850005B88C /* EmotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1B53B1EEA54850005B88C /* EmotionModel.swift */; };
+		7CC1B5421EEA54850005B88C /* EmotionPackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1B53C1EEA54850005B88C /* EmotionPackageModel.swift */; };
+		7CC1B5431EEA54850005B88C /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1B53D1EEA54850005B88C /* Emoticons.bundle */; };
+		7CC1B5461EEA54A70005B88C /* compose_emotion_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1B5441EEA54A70005B88C /* compose_emotion_delete@2x.png */; };
+		7CC1B5471EEA54A70005B88C /* compose_emotion_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1B5451EEA54A70005B88C /* compose_emotion_delete@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C5B7AA91EEA7A7700107BE2 /* UITextView - Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView - Extension.swift"; sourceTree = "<group>"; };
+		7C5B7AAB1EEA7BFB00107BE2 /* EmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonAttachment.swift; sourceTree = "<group>"; };
+		7CC1B5141EE9340E0005B88C /* EmotionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC1B5171EE9340E0005B88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC1B5191EE9340E0005B88C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CC1B51C1EE9340E0005B88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC1B51E1EE9340E0005B88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC1B5211EE9340E0005B88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC1B5231EE9340E0005B88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC1B5371EEA54850005B88C /* EmotionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionCell.swift; sourceTree = "<group>"; };
+		7CC1B5381EEA54850005B88C /* EmotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionViewController.swift; sourceTree = "<group>"; };
+		7CC1B53A1EEA54850005B88C /* EmotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionManager.swift; sourceTree = "<group>"; };
+		7CC1B53B1EEA54850005B88C /* EmotionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionModel.swift; sourceTree = "<group>"; };
+		7CC1B53C1EEA54850005B88C /* EmotionPackageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionPackageModel.swift; sourceTree = "<group>"; };
+		7CC1B53D1EEA54850005B88C /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		7CC1B5441EEA54A70005B88C /* compose_emotion_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@2x.png"; sourceTree = "<group>"; };
+		7CC1B5451EEA54A70005B88C /* compose_emotion_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC1B5111EE9340E0005B88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC1B50B1EE9340D0005B88C = {
+			isa = PBXGroup;
+			children = (
+				7CC1B5161EE9340E0005B88C /* EmotionDemo */,
+				7CC1B5151EE9340E0005B88C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC1B5151EE9340E0005B88C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1B5141EE9340E0005B88C /* EmotionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC1B5161EE9340E0005B88C /* EmotionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1B5361EEA54160005B88C /* Emotion */,
+				7CC1B5171EE9340E0005B88C /* AppDelegate.swift */,
+				7CC1B5191EE9340E0005B88C /* ViewController.swift */,
+				7CC1B51B1EE9340E0005B88C /* Main.storyboard */,
+				7CC1B51E1EE9340E0005B88C /* Assets.xcassets */,
+				7CC1B5201EE9340E0005B88C /* LaunchScreen.storyboard */,
+				7CC1B5231EE9340E0005B88C /* Info.plist */,
+			);
+			path = EmotionDemo;
+			sourceTree = "<group>";
+		};
+		7CC1B5361EEA54160005B88C /* Emotion */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1B5441EEA54A70005B88C /* compose_emotion_delete@2x.png */,
+				7CC1B5451EEA54A70005B88C /* compose_emotion_delete@3x.png */,
+				7CC1B53D1EEA54850005B88C /* Emoticons.bundle */,
+				7CC1B5391EEA54850005B88C /* Models */,
+				7CC1B5371EEA54850005B88C /* EmotionCell.swift */,
+				7CC1B5381EEA54850005B88C /* EmotionViewController.swift */,
+				7C5B7AA91EEA7A7700107BE2 /* UITextView - Extension.swift */,
+				7C5B7AAB1EEA7BFB00107BE2 /* EmoticonAttachment.swift */,
+			);
+			path = Emotion;
+			sourceTree = "<group>";
+		};
+		7CC1B5391EEA54850005B88C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1B53A1EEA54850005B88C /* EmotionManager.swift */,
+				7CC1B53B1EEA54850005B88C /* EmotionModel.swift */,
+				7CC1B53C1EEA54850005B88C /* EmotionPackageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC1B5131EE9340E0005B88C /* EmotionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC1B5261EE9340E0005B88C /* Build configuration list for PBXNativeTarget "EmotionDemo" */;
+			buildPhases = (
+				7CC1B5101EE9340E0005B88C /* Sources */,
+				7CC1B5111EE9340E0005B88C /* Frameworks */,
+				7CC1B5121EE9340E0005B88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionDemo;
+			productName = EmotionDemo;
+			productReference = 7CC1B5141EE9340E0005B88C /* EmotionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC1B50C1EE9340D0005B88C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WJQ;
+				TargetAttributes = {
+					7CC1B5131EE9340E0005B88C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A4TJ894JA9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CC1B50F1EE9340D0005B88C /* Build configuration list for PBXProject "EmotionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC1B50B1EE9340D0005B88C;
+			productRefGroup = 7CC1B5151EE9340E0005B88C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC1B5131EE9340E0005B88C /* EmotionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC1B5121EE9340E0005B88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC1B5221EE9340E0005B88C /* LaunchScreen.storyboard in Resources */,
+				7CC1B5431EEA54850005B88C /* Emoticons.bundle in Resources */,
+				7CC1B5461EEA54A70005B88C /* compose_emotion_delete@2x.png in Resources */,
+				7CC1B51F1EE9340E0005B88C /* Assets.xcassets in Resources */,
+				7CC1B51D1EE9340E0005B88C /* Main.storyboard in Resources */,
+				7CC1B5471EEA54A70005B88C /* compose_emotion_delete@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC1B5101EE9340E0005B88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC1B53F1EEA54850005B88C /* EmotionViewController.swift in Sources */,
+				7CC1B5411EEA54850005B88C /* EmotionModel.swift in Sources */,
+				7CC1B51A1EE9340E0005B88C /* ViewController.swift in Sources */,
+				7CC1B5181EE9340E0005B88C /* AppDelegate.swift in Sources */,
+				7CC1B5421EEA54850005B88C /* EmotionPackageModel.swift in Sources */,
+				7CC1B5401EEA54850005B88C /* EmotionManager.swift in Sources */,
+				7CC1B53E1EEA54850005B88C /* EmotionCell.swift in Sources */,
+				7C5B7AAA1EEA7A7700107BE2 /* UITextView - Extension.swift in Sources */,
+				7C5B7AAC1EEA7BFB00107BE2 /* EmoticonAttachment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CC1B51B1EE9340E0005B88C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC1B51C1EE9340E0005B88C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC1B5201EE9340E0005B88C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC1B5211EE9340E0005B88C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC1B5241EE9340E0005B88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CC1B5251EE9340E0005B88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC1B5271EE9340E0005B88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4TJ894JA9;
+				INFOPLIST_FILE = EmotionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.landi.EmotionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CC1B5281EE9340E0005B88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4TJ894JA9;
+				INFOPLIST_FILE = EmotionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.landi.EmotionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC1B50F1EE9340D0005B88C /* Build configuration list for PBXProject "EmotionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC1B5241EE9340E0005B88C /* Debug */,
+				7CC1B5251EE9340E0005B88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC1B5261EE9340E0005B88C /* Build configuration list for PBXNativeTarget "EmotionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC1B5271EE9340E0005B88C /* Debug */,
+				7CC1B5281EE9340E0005B88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC1B50C1EE9340D0005B88C /* Project object */;
+}
